@@ -1,0 +1,119 @@
+/* Navbar */
+.navbar-nav a{
+    font-size: 20px;
+}
+.Nav{
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    opacity: 0.88;
+}
+p,h2,h1,h5{
+    font-family:cursive;
+    font-weight: 400;
+}
+a{
+    font-family:cursive;
+    font-weight: 400;
+}
+a:hover{
+    font-size: 25px;
+    size: 30px;
+}
+p{
+    font-family:cursive;
+    font-weight: 400;
+    text-align: center;
+}
+.prdtit{
+    font-family: cursive;
+    height: 170px;
+    width:60%;
+}
+.prdtitt{
+    padding: 20px;
+    background-color:beige ;
+}
+.prd{
+    display: flex;
+    margin: 10px;
+    /* padding: 10px 10px 10px 10px; */
+    justify-content: space-around;
+}
+.prdt{
+    /* padding: 10px 10px 10px 10px; */
+position: relative;
+    width:24.2550%;
+    border: 1px solid black;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(255, 237, 214)
+}
+.abt{
+    display: flex;
+    background-color:beige;
+}
+.abto{
+    padding: 10px 20px;
+    width:auto;
+    background-color: beige;
+}
+.abtt{
+    background-color: beige;
+}
+.btnn{
+    border: 1.5px solid black;
+    display: inline-block;
+    position:absolute;
+    bottom: 64px;
+    left: 273px;
+    width: 80px;
+    /* padding: px 8px; */
+    color: aliceblue;
+    font-family: cursive;
+    border-radius: 4px;
+    background-color:rgb(77, 77, 122)
+}
+.btnn:hover{
+   background-color:rgb(33, 33, 105) ; 
+}
+.rvw{
+    padding: 50px 20px;
+    background-color: beige;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    position: relative;
+}
+.rvw2{
+        display: flex;
+        margin: 10px;
+        /* padding: 10px 10px 10px 10px; */
+        justify-content: space-around;
+    }
+.rvw21{
+        /* padding: 10px 10px 10px 10px; */
+    position: relative;
+        width:24.2550%;
+        border: 1px solid black;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        background-color:rgb(255, 237, 214)
+    }
+    .btnnn{
+        width: 100px;
+    padding: 5px 8px;
+    color: aliceblue;
+    font-family: cursive;
+    border-radius: 4px;
+    background-color:rgb(77, 77, 122);
+position: absolute;
+right: 40px;
+    }
+    .btnnn:hover{
+        background-color:rgb(157, 157, 170) ; 
+        color: rgb(0, 0, 0);
+        width: 120px;
+    }
